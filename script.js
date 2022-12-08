@@ -8,8 +8,7 @@ secondNumber = Number(secondNumber)
 
 const sum = (firstNumber + secondNumber)
 
-let dividesum = (sum / 2)
-let parOuImpar = dividesum % 2 == 0 ? 'par' : 'ímpar'
+let parOuImpar = sum % 2 == 0 ? 'par' : 'ímpar'
 
 const sub = (firstNumber - secondNumber)
 const mult = (firstNumber * secondNumber)
